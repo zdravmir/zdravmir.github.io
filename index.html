@@ -2051,24 +2051,24 @@ padding-bottom: 20px;border: 0px solid #999999;-webkit-flex: 1 0 200px;-ms-flex:
 			action="https://formspree.io/mnqvdlyz"
 			method="POST">
 			<label>
-				<input type="text" size="28" maxlength="65" class="f-input" placeholder="Введите ваше имя и фамилию" name="ФИО">
+				<input type="text" size="28" maxlength="65" placeholder="Введите ваше имя и фамилию" name="ФИО">
 			</label><br>
 			<label>
 		  
-		  		<input type="text" size="28" maxlength="65" class="f-input" placeholder="Введите Ваш эл. ардес" name="e-mail">
+		  		<input type="text" size="28" maxlength="65" placeholder="Введите Ваш эл. ардес" name="e-mail">
 			</label><br>
 			<label>
 		  
-		 		 <input type="text" size="28" maxlength="65" class="f-input" placeholder="Введите Ваш телефон" name="Телефон">
+		 		 <input type="text" size="28" maxlength="65" placeholder="Введите Ваш телефон" name="Телефон">
 			</label><br>
 			<label>
 				<select size="1" name="Нужен ли трансфер">
 					<option >Нужен ли Вам трансфер?</option>
 					<option value="Да">Да</option>
 					<option value="Нет">Нет</option>
-				</select class="f-input">
+				</select >
 			</label><br>
-			<label><select width="500" size="1" name="Количество взрослых">
+			<label><select size="1" name="Количество взрослых">
 				<option >Сколько всего взрослых ?</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -2089,19 +2089,18 @@ padding-bottom: 20px;border: 0px solid #999999;-webkit-flex: 1 0 200px;-ms-flex:
 					<option value="больше 5">больше 5</option>
 			   	</select></label><br>
 			   <label>
-				   <input type="text" size="28" maxlength="65" class="f-input" placeholder="Перечислите возрс каждого ребенка" name="Возраст детей">
+				   <input type="text" size="28" maxlength="65" placeholder="Перечислите возрс каждого ребенка" name="Возраст детей">
 				</label><br>
 				Пример: 12, 14, 15<br><br>
-
-<br>
 
 			<!-- your other form fields go here -->
 		  
 				<button  class="btn f-btn  button-md btn-success" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
 		  </form>
 		  <style>
-			select {
+			input, select, button {
 			 width: 330px; /* Ширина списка в пикселах */
+			 min-height: 50px;
 			 color:#777;
 			}
 		   </style>
